@@ -1,0 +1,13 @@
+{
+ "model": "VGG16",
+ "val_acc": 0.955,
+ "test_acc": 0.9502,
+ "test_top5": 0.9866,
+ "test_macro_f1": 0.95,
+ "params_M": 14.75,
+ "size_MB": 59.0,
+ "epochs": 23,
+ "stage1_epochs": 15,
+ "train_min": 13.8,
+ "latency_ms_per_img": 28.7
+}

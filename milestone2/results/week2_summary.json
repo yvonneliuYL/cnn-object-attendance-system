@@ -1,0 +1,173 @@
+{
+ "object_ids": "73 IDs (OBJ001\u2013OBJ073)",
+ "grid_sizes": [
+  "2x2 (448x448)",
+  "3x3 (672x672)",
+  "4x4 (896x896)",
+  "5x4 (1120x896)",
+  "5x5 (1120x1120)"
+ ],
+ "photos": {
+  "unique": 6947,
+  "removed_before_split": {
+   "exact duplicate": 16,
+   "excluded": 1
+  },
+  "train": 4862,
+  "test": 1043,
+  "val": 1042
+ },
+ "labels": {
+  "photos": 6947,
+  "used": 6598,
+  "left_out": 349,
+  "models_agree": 5280,
+  "agree_pct": 76.0,
+  "mean_iou_when_agree": 0.944,
+  "status_counts": {
+   "agree": 4712,
+   "gdino_only": 1180,
+   "agree_2nd_choice": 568,
+   "left_out": 349,
+   "rescued": 130,
+   "yoloworld_only": 8
+  }
+ },
+ "left_out_per_object": {
+  "OBJ003": 8,
+  "OBJ004": 6,
+  "OBJ007": 1,
+  "OBJ009": 1,
+  "OBJ012": 8,
+  "OBJ013": 9,
+  "OBJ014": 11,
+  "OBJ017": 1,
+  "OBJ020": 19,
+  "OBJ023": 7,
+  "OBJ025": 18,
+  "OBJ026": 1,
+  "OBJ029": 1,
+  "OBJ030": 6,
+  "OBJ031": 2,
+  "OBJ032": 11,
+  "OBJ033": 8,
+  "OBJ034": 19,
+  "OBJ036": 19,
+  "OBJ037": 19,
+  "OBJ038": 2,
+  "OBJ040": 15,
+  "OBJ041": 12,
+  "OBJ042": 18,
+  "OBJ044": 4,
+  "OBJ046": 2,
+  "OBJ049": 6,
+  "OBJ050": 19,
+  "OBJ051": 11,
+  "OBJ052": 1,
+  "OBJ054": 14,
+  "OBJ057": 2,
+  "OBJ058": 1,
+  "OBJ059": 19,
+  "OBJ060": 11,
+  "OBJ061": 12,
+  "OBJ062": 2,
+  "OBJ064": 1,
+  "OBJ065": 1,
+  "OBJ068": 19,
+  "OBJ069": 1,
+  "OBJ070": 1
+ },
+ "grids": {
+  "train": 800,
+  "val": 150,
+  "test": 150
+ },
+ "objects_in_grids": {
+  "train": 11840,
+  "val": 2220,
+  "test": 2220
+ },
+ "training": {
+  "model": "yolov8s.pt",
+  "imgsz": 1120,
+  "batch": 8,
+  "max_epochs": 50,
+  "patience": 15,
+  "epochs_run": 50,
+  "train_min": 41.0,
+  "best_val_mAP50": 0.9087
+ },
+ "test": {
+  "precision": 0.902,
+  "recall": 0.896,
+  "mAP50": 0.909,
+  "mAP50_95": 0.85
+ },
+ "test_by_grid": {
+  "all test grids": {
+   "precision": 0.902,
+   "recall": 0.896,
+   "mAP50": 0.909,
+   "mAP50_95": 0.85
+  },
+  "2x2 (448x448)": {
+   "precision": 0.842,
+   "recall": 0.841,
+   "mAP50": 0.929,
+   "mAP50_95": 0.858
+  },
+  "3x3 (672x672)": {
+   "precision": 0.885,
+   "recall": 0.848,
+   "mAP50": 0.926,
+   "mAP50_95": 0.88
+  },
+  "4x4 (896x896)": {
+   "precision": 0.867,
+   "recall": 0.894,
+   "mAP50": 0.919,
+   "mAP50_95": 0.874
+  },
+  "5x4 (1120x896)": {
+   "precision": 0.891,
+   "recall": 0.865,
+   "mAP50": 0.898,
+   "mAP50_95": 0.844
+  },
+  "5x5 (1120x1120)": {
+   "precision": 0.901,
+   "recall": 0.893,
+   "mAP50": 0.916,
+   "mAP50_95": 0.855
+  }
+ },
+ "test_at_conf": {
+  "conf": 0.5,
+  "images": 150,
+  "objects": 2220,
+  "correct": 1920,
+  "wrong_or_extra": 162,
+  "missed": 300,
+  "grids_all_correct": 22,
+  "precision": 0.922,
+  "recall": 0.865
+ },
+ "focus_object": [
+  {
+   "obj_id": "OBJ036",
+   "precision": 0.86,
+   "recall": 0.9,
+   "AP50": 0.941,
+   "AP50_95": 0.925
+  }
+ ],
+ "minutes": {
+  "photos": 0.5,
+  "label_yoloworld": 11.1,
+  "label_gdino": 27.3,
+  "grids": 1.1,
+  "train": 41.8,
+  "evaluate": 0.8,
+  "total_this_session": 83.6
+ }
+}

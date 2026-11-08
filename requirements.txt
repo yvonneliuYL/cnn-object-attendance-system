@@ -1,0 +1,14 @@
+# Part 1: CNN classification (Milestone 1)
+tensorflow>=2.20
+keras>=3
+scikit-learn
+# Parts 2-3: detection (Milestones 2-3)
+torch>=2.11
+torchvision
+ultralytics>=8.4
+transformers   # Grounding DINO for box labelling
+# Shared
+numpy
+pandas
+matplotlib
+pillow

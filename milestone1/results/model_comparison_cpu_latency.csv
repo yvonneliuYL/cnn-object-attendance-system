@@ -1,0 +1,6 @@
+model,val_acc,test_acc,test_top5,test_macro_f1,params_M,size_MB,epochs,stage1_epochs,train_min,cpu_latency_ms_macbook_i5,gpu_eager_latency_ms_(not_comparable)
+EfficientNetB0,0.9818,0.9742,0.9971,0.9743,4.14,16.6,30,15,9.9,61.0,282.7
+ResNet50,0.9751,0.9703,0.9962,0.9702,23.74,94.9,28,13,16.5,129.4,224.3
+MobileNetV2,0.9617,0.9617,0.9933,0.9619,2.35,9.4,29,14,7.1,35.8,150.0
+VGG16,0.955,0.9502,0.9866,0.95,14.75,59.0,23,15,13.8,265.8,28.7
+CustomCNN,0.7703,0.7847,0.9263,0.7852,1.61,6.4,55,55,23.2,30.5,22.6

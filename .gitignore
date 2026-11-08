@@ -1,0 +1,14 @@
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+
+# Data and trained models (too large for GitHub; recreated by the notebooks)
+database/
+database.zip
+*.zip
+*.keras
+*.h5
+*.pt
+*.npy
+runs/
