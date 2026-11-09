@@ -15,6 +15,8 @@ Each student in the class photographed one personal object, which gives 73 objec
 
 **YOLOv8s is the final model.** EfficientNetB0 is very accurate but can only give one ID per image; it cannot say where an object is or handle many objects. YOLOv8s does both demo tasks with one model.
 
+Full write-ups: [Milestone 1 report](reports/Milestone1_Report.pdf) · [Milestone 2 report](reports/Milestone2_Report.pdf)
+
 ![Example detections on test grids](milestone2/results/figures/example_detections.png)
 
 ## Milestone 1: Single-object image ID
@@ -71,6 +73,9 @@ Final model by grid size (test set):
 ## Repository contents
 
 ```
+reports/
+├── Milestone1_Report.pdf                 # CNN comparison report
+└── Milestone2_Report.pdf                 # multi-object detection report
 notebooks/
 └── Final_Notebook_Milestones_1-3.ipynb   # final notebook: Part 1 CNNs, Part 2 labelling + YOLOv8s, Part 3 results + live demo
 milestone1/
